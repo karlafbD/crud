@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #ffcaff, #ffccff, #cc99ff, #99ccff, #ccffcc);
+}
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 25%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #214861;
+}
+
+.boton {
+    padding: 20px 30px;
+    background-color: #2bdfff;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Hacer que el borde sea un círculo */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.boton:hover {
+    background-color: #9f66a7;
+}
+
+.mensaje-exito {
+    color: #4289c0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(240, 238, 238, 0.788);
+}
+
+.mensaje-error {
+    color: #00ffd9;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

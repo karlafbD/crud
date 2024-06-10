@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(145deg, #6d8eb7 0, #a3cdec 16.67%, #78848f 33.33%, #8aa7b2 50%, #667e91 66.67%, #39434f 83.33%, #283453 100%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.column {
+    margin: 0 20px; /* Margen entre columnas */
+}
+
+.btn {
+    padding: 15px 22px;
+    background-color: #3c52ce;
+    color: #fff;
+    border: 2px solid #3c52ce; /* Añadido borde */
+    border-radius: 8px; /* Redondeado los bordes */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s; /* Añadido border-color */
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #7b61e2;
+    border-color: #7b61e2; /* Cambiado color del borde en hover */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan a la siguiente línea */
+    margin-top: 20px;
+    flex-direction: column; /* Organizar los elementos en columnas */
+}
+
+.column {
+    flex: 1; /* Hacer que los botones ocupen el mismo espacio */
+    margin: 0 10px; /* Añadir un pequeño margen entre los botones */
+    max-width: calc(25% - 20px); /* Limitar el ancho máximo de los botones */
+}
+
+.column:nth-child(-n + 4) {
+    order: 1; /* Los primeros cuatro cuadros aparecen primero */
+}
+
+.column:nth-child(n + 5) {
+    order: 2; /* Los cuadros restantes aparecen después */
+}
+
+h1 {
+    color: #080808;
+    text-align: center;
+}
+
+p {
+    color: #0f0f10;
+    text-align: center;
+    font-family: 'Courier New', monospace; 
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #788fcf;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.center-text {
+    text-align: center;
+    color:#ebe9e2
+}

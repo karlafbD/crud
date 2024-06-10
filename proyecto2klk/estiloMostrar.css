@@ -1,0 +1,59 @@
+body {
+    background-color: #2c3e50; /* Nuevo color de fondo */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    color: #ecf0f1; /* Color del texto */
+}
+
+.container {
+    text-align: center; 
+    margin-top: 50px; /* Margen superior */
+}
+
+h1 {
+    font-size: 28px; /* Tamaño del título */
+    margin-bottom: 30px; /* Margen inferior */
+    color: #1b102b; /* Color del título */
+}
+
+.tabla-asignaturas {
+    margin: 20px auto; 
+    background-color: #3b345e; /* Color de fondo de la tabla */
+    border-collapse: collapse; 
+    width: 70%; /* Ancho de la tabla */
+    color: #ecf0f1; /* Color del texto de la tabla */
+}
+
+.tabla-asignaturas th, .tabla-asignaturas td {
+    border: 1px solid #2c3e50; /* Borde de las celdas */
+    padding: 12px; /* Espaciado interno */
+}
+
+.tabla-asignaturas th {
+    background-color: #2980b9; /* Color de fondo del encabezado */
+}
+
+.boton-consultar {
+    padding: 15px 25px; 
+    background-color: #3ce7e7; /* Nuevo color del botón */
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block; /* Mostrar en línea */
+    margin-top: 20px; /* Margen superior */
+}
+
+.boton-consultar:hover {
+    background-color: #2b8cc0; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para el texto en negrita */
+b {
+    color: #072031; /* Color del texto */
+}
+
+.center-text {
+    text-align: center;
+}
